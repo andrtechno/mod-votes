@@ -1,8 +1,8 @@
 {
-    "name": "panix/wgt-fancybox",
-    "description": "Fancybox widget for Yii2",
-    "keywords": ["pixelion-cms", "widget", "fancybox", "yii2"],
-    "homepage": "https://github.com/andrtechno/wgt-fancybox",
+    "name": "panix/mod-votes",
+    "description": "Votes module for CMS",
+    "keywords": ["pixelion-cms", "module", "votes"],
+    "homepage": "https://github.com/andrtechno/mod-votes",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -12,12 +12,9 @@
             "homepage": "https://pixelion.com.ua"
         }
     ],
-    "require": {
-        "bower-asset/fancybox": "^3.5.1"
-    },
     "autoload": {
         "psr-4": {
-            "panix\\ext\\fancybox\\": ""
+            "panix\\mod\\votes\\": ""
         }
     }
 }
